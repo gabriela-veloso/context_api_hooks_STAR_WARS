@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url('https://e7.pngegg.com/pngimages/917/738/png-clipart-starry-sky-starry-sky-stars.png');
+}
+
+input {
+  height: 50px;
+  width: 1000px;
+}
+
+select {
+  height: 50px;
+  width: 500px;
+}
+
+.paiDaTable {
+  max-height: 500px;
+  overflow: auto;
+}
+
+table {
+  page-break-inside: auto;
+  width: 100%;
+}
+
+table, th, td {
+  border: 3px solid navy;
+  font-size: 16px;
+}
+
+td {
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+th {
+  background-color: slategray;
+  color: white;
+  height: 70px;
+  padding: 15px;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  color: white;
+  page-break-after: auto;
+  page-break-inside: avoid;
+}
+
+tr:hover {
+  background-color: gray;
+}
